@@ -1,0 +1,2 @@
+import { BookOpen, CheckCircle2, Link2 } from 'lucide-react'
+export function EmptyState() { return <div className="empty-state"><div className="empty-icon"><BookOpen size={20}/></div><h2>Research before you buy.</h2><p>ShopWise AI searches the web, reads product evidence and reviews, then explains which option fits your decision best.</p><div className="empty-points"><span><CheckCircle2 size={15}/> Verified source links</span><span><CheckCircle2 size={15}/> Review intelligence</span><span><Link2 size={15}/> Direct product pages</span></div></div> }
